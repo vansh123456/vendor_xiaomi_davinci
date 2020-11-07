@@ -331,6 +331,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/step_motor/mi_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/step_motor/mi_camera_config.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/davinci/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/davinci/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
@@ -729,6 +730,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_utils.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmibokeh_712.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_712.so \
+    vendor/xiaomi/davinci/proprietary/vendor/lib64/libmivendor_module_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_calibration.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmivendor_module_hall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_hall.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmivendor_module_motor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_motor.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -883,7 +885,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so \
-    vendor/xiaomi/davinci/proprietary/vendor/lib64/vendor.xiaomi.hardware.motor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.motor@1.0.so \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
